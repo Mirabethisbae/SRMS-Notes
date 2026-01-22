@@ -1,0 +1,120 @@
+STUDENT RESULT MANAGEMENT SYSTEM (SRMS)
+SOFTWARE ENGINEERING (SEN) ASSIGNMENT
+Student Name: Cyril-Urude Mirabeth
+Matric Number: 24/15531
+Course: Software Engineering
+Project Title: Student Result Management System (SRMS)
+1. INTRODUCTION
+The Student Result Management System (SRMS) is a simple web-based application designed to manage students’ academic results efficiently. The system allows users to enter student details such as name, matriculation number, test score, and examination score. It then calculates the total score and assigns a grade automatically.
+This project was developed using basic web technologies and follows the Software Development Life Cycle (SDLC) methodology to ensure proper planning, design, implementation, testing, and maintenance.
+2. SOFTWARE DEVELOPMENT LIFE CYCLE (SDLC)
+The Software Development Life Cycle (SDLC) is a structured process used to design, develop, test, and maintain software systems. The SDLC phases applied in this project include:
+Planning
+Requirement Analysis
+System Design
+Implementation
+Testing
+Deployment
+Maintenance
+3. PLANNING PHASE
+3.1 Project Objective
+The main objective of the SRMS project is to:
+Automate the process of calculating student results.
+Reduce manual errors in result computation.
+Provide a simple and user-friendly interface for result management.
+3.2 Scope of the Project
+The system will:
+Accept student name and matric number.
+Accept test and examination scores.
+Calculate total score automatically.
+Assign grades based on predefined rules.
+Display results in a tabular format.
+3.3 Tools and Technologies
+HTML (Structure)
+CSS (Styling)
+JavaScript (Logic and functionality)
+GitHub (Version control and hosting)
+4. REQUIREMENT ANALYSIS
+4.1 Functional Requirements
+The system shall:
+Allow input of student name.
+Allow input of matriculation number.
+Accept test and exam scores.
+Calculate total score.
+Assign grades automatically.
+Display student results in a table.
+4.2 Non-Functional Requirements
+The system should be easy to use.
+The interface should be simple and clear.
+The system should respond quickly to user input.
+The application should run on any modern web browser.
+5. SYSTEM DESIGN
+5.1 System Architecture
+The SRMS uses a client-side architecture, where all operations are handled in the browser using JavaScript.
+5.2 User Interface Design
+The interface consists of:
+A form for entering student data.
+A button to submit results.
+A table to display student name, matric number, total score, and grade.
+5.3 Grade Computation Logic
+Grades are assigned as follows:
+70 and above → A
+60 – 69 → B
+50 – 59 → C
+45 – 49 → D
+Below 45 → F
+6. IMPLEMENTATION
+The system was implemented using:
+HTML to structure the form and result table.
+CSS to improve appearance and layout.
+JavaScript to:
+Capture form input
+Calculate total score
+Assign grades
+Display results dynamically
+The code was organized into files and uploaded to GitHub for version control and accessibility.
+7. TESTING
+7.1 Testing Method Used
+Manual testing was carried out by entering different student scores to ensure:
+Correct calculation of total scores.
+Correct grade assignment.
+Proper display of results.
+7.2 Test Cases
+Test Score
+Exam Score
+Expected Total
+Expected Grade
+30
+50
+80
+A
+25
+40
+65
+B
+20
+30
+50
+C
+20
+25
+45
+D
+10
+20
+30
+F
+All test cases produced correct outputs.
+8. DEPLOYMENT
+The system was deployed using GitHub:
+The source code was uploaded to a GitHub repository.
+The documentation was uploaded to a separate repository.
+GitHub Pages can be used to make the project accessible online.
+9. MAINTENANCE
+Maintenance activities include:
+Updating grading rules when required.
+Improving user interface design.
+Adding features such as data storage or authentication in future versions.
+Fixing bugs and improving performance.
+10. CONCLUSION
+The Student Result Management System (SRMS) successfully demonstrates the application of the Software Development Life Cycle (SDLC) in building a simple web-based system. The project meets all specified requirements and provides a reliable way to manage student results efficiently. This project also helps in understanding real-world software development processes.
